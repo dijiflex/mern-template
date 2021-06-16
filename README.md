@@ -1,2 +1,1 @@
-# tumakim-mern
 # mern-template
