@@ -1,0 +1,24 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently --names \"server,client\" \"cd server && npm run dev\" \"cd client && npm start\""
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tumakim/tumakim-mern.git"
+  },
+  "author": "Felix Omuok",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tumakim/tumakim-mern/issues"
+  },
+  "homepage": "https://github.com/tumakim/tumakim-mern#readme",
+  "devDependencies": {
+    "concurrently": "^6.2.0"
+  },
+  "dependencies": {}
+}
